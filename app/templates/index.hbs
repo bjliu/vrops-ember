@@ -1,0 +1,16 @@
+<div>
+ <label>Name:</label>
+ {{input type="text" value=name placeholder="Enter your name"}}
+</div>
+<div class="text">
+<h3>My name is {{name}}.</h3>
+</div>
+<h3> Links </h3>
+<ul>
+	<li>{{#link-to 'users'}}Go to Users{{/link-to}}</li>
+	<li>{{#link-to 'about'}}Go to About{{/link-to}}</li>
+	<li>{{#link-to 'alerts'}}Go to Alerts{{/link-to}}</li>
+	<li>{{#link-to 'photon'}}Go to Photon Pull Requests{{/link-to}}</li>
+	<li>{{#link-to 'subscribers'}}Go to Subscribers{{/link-to}}</li>
+	<li>{{#link-to 'trials'}}Go to Trials{{/link-to}}</li>
+</ul>

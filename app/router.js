@@ -6,6 +6,14 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('about');
+  this.route('users');
+  this.route('alerts');
+  this.route('sodas');
+  this.route('photon');
+  this.route('trails');
+  this.route('trials');
+  this.route('subscribers');
 });
 
 export default Router;
