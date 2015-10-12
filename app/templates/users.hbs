@@ -1,9 +1,20 @@
-<ul class="example-gravatar">
-  <li>{{gravatar-image email="tomster@emberjs.com" size="200"}}</li>
-  <li>{{gravatar-image size="200"}}</li>
-</ul>
+<div class='container'>
+	<div class="row">
+		<div class="col-sm-6 col-md-4">
+			<div class="thumbnail">
+				{{gravatar-image email="tomster@emberjs.com" size="340"}}
+      		</div>
+    	</div>
+    	<div class="col-sm-6 col-md-4">
+			<div class="thumbnail">
+				{{gravatar-image size="340"}}
+      		</div>
+    	</div>
+    	<div class="col-sm-6 col-md-4">
+			<div class="thumbnail">
+				{{gravatar-image size="340"}}
+      		</div>
+    	</div>
 
-<h3> Links </h3>
-<ul>
-	<li>{{#link-to 'index'}}Go to Home{{/link-to}}</li>
-</ul>
+  	</div>
+</div>

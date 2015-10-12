@@ -8,8 +8,8 @@ module.exports = function(environment) {
       'default-src': "'none'",
       'script-src': "'self' 'unsafe-inline' 'unsafe-eval'",
       'font-src': "'self' data: use.typekit.net",
-      'connect-src': "'self' https://auth.firebase.com wss://*.firebaseio.com https://api.github.com",
-      'img-src': "'self' www.facebook.com p.typekit.net",
+      'connect-src': "'self' https://auth.firebase.com wss://*.firebaseio.com https://api.github.com https://10.20.133.157 http://10.20.133.157",
+      'img-src': "'self' www.facebook.com p.typekit.net http://www.gravatar.com",
       'style-src': "'self' 'unsafe-inline' use.typekit.net",
       'frame-src': "s-static.ak.facebook.com static.ak.facebook.com www.facebook.com"
     },
